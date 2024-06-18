@@ -51,3 +51,20 @@ local FirstLabel = FirstPage.AddLabel("Tp")
 local FirstButton = FirstPage.AddButton("Mega Vip Tp", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.81777275, 175.999954, 60.6900177, -0.99771297, 8.08223177e-08, -0.0675932616, 7.96569495e-08, 1, 1.99360581e-08, 0.0675932616, 1.45061909e-08, -0.99771297)
 end)
+
+local FirstPage = MainUI.AddPage("SkateBoard Obby")
+
+local FirstLabel = FirstPage.AddLabel("HAVE TO UNLOCK 1 BY 1")
+
+local FirstButton = FirstPage.AddButton("World 2 Unlock", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(814.95813, 618.004211, -24448.6699, -0.0444562063, 3.88648491e-09, 0.999011338, 0.000993937021, 0.999999523, 4.42265082e-05, -0.999010861, 0.000994920498, -0.0444561839)
+end) 
+
+local FirstButton = FirstPage.AddButton("World 3 Unlock", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1595.56641, -10.8123417, -25672.0898, 0.997973144, -1.51696639e-07, 0.0636360869, 6.44542451e-05, 0.999999464, -0.00100842025, -0.0636360496, 0.00101047789, 0.997972667)
+end)
+
+local FirstButton = FirstPage.AddButton("World 4 Unlock", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14.268939, 234.754776, -20187.8418, -0.141644031, 1.23829142e-08, -0.989917636, -0.000984715531, 0.999999523, 0.000140912176, 0.989917159, 0.00099474669, -0.141643956)
+end)
+
