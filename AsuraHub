@@ -71,6 +71,6 @@ end)
 local FirstPage = MainUI.AddPage("Blox Fruits")
 local FirstLabel = FirstPage.AddLabel("Not My Script")
 
-local FirstButton = FirstPage.AddButton("idk what Lucky Block", function()
+local FirstButton = FirstPage.AddButton("Min Hub", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
 end)
