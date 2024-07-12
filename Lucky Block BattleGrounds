@@ -1,0 +1,28 @@
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/twink"))()
+
+local MainUI = UILibrary.Load("Lucky Block BattleGrounds")
+local FirstPage = MainUI.AddPage("Home")
+
+local FirstButton = FirstPage.AddButton("Normal Lucky Block", function()
+    game:GetService("ReplicatedStorage"):WaitForChild("SpawnLuckyBlock"):FireServer()
+end)
+
+local FirstButton = FirstPage.AddButton("Super Lucky Block", function()
+    game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
+end)
+
+local FirstButton = FirstPage.AddButton("Diamond Lucky Block", function()
+    game:GetService("ReplicatedStorage"):WaitForChild("SpawnDiamondBlock"):FireServer()
+end)
+
+local FirstButton = FirstPage.AddButton("Rainbow Lucky Block", function()
+    game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer()
+end)
+
+local FirstButton = FirstPage.AddButton("Galaxy Lucky Block", function()
+    game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer()
+end)
+
+local FirstButton = FirstPage.AddButton("idk what Lucky Block", function()
+    game:GetService("ReplicatedStorage"):WaitForChild("SpawnSuperBlock"):FireServer()
+end)
